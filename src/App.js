@@ -9,14 +9,25 @@ import Footer from './Footer.js';
 //CSS IMPORTS TOO
 import './app.css';
 
-
 //REQUIRED FRAMEWORK 2 OF 3
 class App extends React.Component {  //grabbing the initial class and adding to is
 
+  //OR..... USE A FRAG/FRAGMENT
+  render() {
+    return (
+      <>
+        <Header />
+        <Main />
+        <Footer />
+      </>
+    );
+  }
+}
+
 //AND THEN
-  // render() {
-  //   return <h1>BEASTS with HORNS</h1>  //return only likes one line. otherwise wrap in ();
-  // }
+// render() {
+//   return <h1>BEASTS with HORNS</h1>  //return only likes one line. otherwise wrap in ();
+// }
 
 //JSX NOTES FROM CLASS - WRITING CODE THAT LOOKS LIKE HTML IN JS.
 //react can only return html syntax if it is wrapped in a single parent item
@@ -45,18 +56,6 @@ class App extends React.Component {  //grabbing the initial class and adding to 
 //         </footer>
 //         </div>
 // }
-
-//OR..... USE A FRAG/FRAGMENT
-  render() {
-    return (
-      <>
-        <Header />
-        <Main />
-        <Footer />
-      </>
-    );
-  }
-}
 
 
 //ONE LINER

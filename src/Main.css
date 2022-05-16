@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Sheyna's css from class */
+/* article p {
+  font-size: 18px;
+  margin: auto;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+article p:last-of-type {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+article p:last-of-type:hover {
+  color: seagreen;
+} */
