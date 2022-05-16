@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 import './Beast.css';
 
 //THIS NEEDS TO BE IMPORTED INTO PARENT
