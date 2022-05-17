@@ -1,10 +1,10 @@
 import React from 'react';
-import data from './data.json';
+import data from '../data.json';
 import './Main.css';
 
 //DON'T FORGET TO IMPORTED INTO PARENT
 
-import HornedBeast from './Beast.js';
+import HornedBeast from '../Beasts/HornedBeast.js';
 
 
 class Main extends React.Component {

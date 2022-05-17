@@ -1,6 +1,6 @@
 import React from 'react';
-// import { Button } from 'react-bootstrap';
-import './Beast.css';
+import Button from 'react-bootstrap/Button';
+import './HornedBeast.css';
 
 //THIS NEEDS TO BE IMPORTED INTO PARENT
 
@@ -30,7 +30,7 @@ class HornedBeast extends React.Component {
           title={this.props.title}
         />
         <p>{this.props.description}.</p>
-        <button onClick={this.addVote}>VOTE</button>
+        <Button onClick={this.addVote}>VOTE</Button>
         {/* <p>Voted for {this.state.favorite} times.</p> */}
       </article>
     );
