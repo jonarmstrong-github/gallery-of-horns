@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# gallery-of-horns
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Author**: Jon Armstrong
 
-## Available Scripts
+**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
-In the project directory, you can run:
+## Links
+[GitHub Page](https://jonarmstrong-github.github.io/gallery-of-horns/)
 
-### `npm start`
+[Github Repository](https://github.com/jonarmstrong-github/gallery-of-horns)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Netlify Deployment](https://thunderous-smakager-8219c8.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Overview
+This application will allow a user to filter the images by number of horns and chose your favorite image.
+<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
 
-### `npm test`
+## Getting Started
+The user will only need to access the app with a modern web browser through the deployed website.
+<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Architecture
+This app consists of HTML5, JS, CSS, JSON, and NodeJS packages REACT, and BOOTSTRAP.
 
-### `npm run build`
+Construction was performed on a Windows system, running services through Windows Subsystem for Linux - Ubuntu, and Visual Studio Code.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Services from GitHub.com, Netlify.com, and Replit.com were utilized.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Change Log
+2022-05-12 18:10 - INITIAL COMMIT with basic React config installed by NPM.
+2022-05-16 01:55 - MAJOR ADDITIONS/CHANGES TO CONTENT, STYLE, AND FUNCTION.
+<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
-### `npm run eject`
+01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Credit and Collaborations
+<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
+### Name of feature: Initial setup and documentation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Estimate of time needed to complete: 2 hours
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start time: 16:15
 
-## Learn More
+Finish time: 18:10
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Actual time needed to complete: 2.1 hours
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Name of feature: Display images
 
-### Code Splitting
+Estimate of time needed to complete: 1 hour
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Start time: 18:30
 
-### Analyzing the Bundle Size
+Finish time: 19:30
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Actual time needed to complete: 1 hour
 
-### Making a Progressive Web App
+### Name of feature: Allow users to vote for their favorite beast
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Estimate of time needed to complete: 1 hour
 
-### Advanced Configuration
+Start time: 20:10
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Finish time: 22:20
 
-### Deployment
+Actual time needed to complete: 2 hours
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Name of feature: Bootstrap
 
-### `npm run build` fails to minify
+Estimate of time needed to complete: 1 hour
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Start time: 22:45
+
+Finish time: 00:45
+
+Actual time needed to complete: 2 hours
+
+### Name of feature: ________________________________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+

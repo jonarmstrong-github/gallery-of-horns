@@ -2,9 +2,9 @@
 import React from 'react';
 
 //EXTRA COMPONENTS
-import Header from './Header.js';
-import Main from './Main.js';
-import Footer from './Footer.js';
+import Header from '../Header/Header.js';
+import Main from '../Main/Main.js';
+import Footer from '../Footer/Footer.js';
 
 //CSS IMPORTS TOO
 import './app.css';
