@@ -36,7 +36,7 @@ class HornedBeast extends React.Component {
     //   </article>
     // );
     return (
-      <Card>
+      <Card style={{ width: '18rem'}}>
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>
           <Card.Subtitle>❤️{this.state.favorite}</Card.Subtitle>
