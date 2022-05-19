@@ -8,7 +8,7 @@ React Official Documentation
 Configuration
 Your repository must include the following config files:
 
-README.md - provided by create-react-app, but edited by you to include an overview of the project for a new visitor to your repo. Name all collaborartors
+README.md - provided by create-react-app, but edited by you to include an overview of the project for a new visitor to your repo. Name all collaborators
 .gitignore - provided by create-react-app
 Feature Tasks
 Complete the following steps to setup your repository:
