@@ -1,7 +1,15 @@
 /* currently getting from index.css for some reason.... */
-/* header {
+header {
   font-family: "Rubik Beastly";
-  font-size: 5em;
-  display: inline-block;
+  /* display: inline-block; */
   text-align: center;
-} */
+  /* justify-content: center; */
+}
+
+h1 {
+  font-size: 5em;
+  /* display: inline-block;
+  text-align: center;
+  margin: auto;
+  justify-content: center; */
+}
