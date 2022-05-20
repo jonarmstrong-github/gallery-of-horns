@@ -31,6 +31,11 @@ Services from GitHub.com, Netlify.com, and Replit.com were utilized.
 ## Change Log
 2022-05-12 18:10 - INITIAL COMMIT with basic React config installed by NPM.
 2022-05-16 01:55 - MAJOR ADDITIONS/CHANGES TO CONTENT, STYLE, AND FUNCTION.
+2022-05-17 01:00 - REORGANIZED FILE STRUCTURE OF COMPONENTS.
+2022-05-19 16:47 - ADDED REACT CARDS COMPONENT
+2022-05-19 16:52 - DEBUG
+2022-05-19 15:28 - REACT CARDS
+
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
@@ -79,13 +84,13 @@ Finish time: 00:45
 
 Actual time needed to complete: 2 hours
 
-### Name of feature: ________________________________
+### Name of feature: React Cards
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1 hour
 
-Start time: _____
+Start time: 16:45
 
-Finish time: _____
+Finish time: 17:45
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hour
 
