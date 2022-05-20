@@ -36,10 +36,12 @@ class HornedBeast extends React.Component {
     //   </article>
     // );
     return (
-      <Card style={{ width: '480px'}}>
+      <Card style={{width: '480px'}}>
         <Card.Body>
-          <Card.Title>{this.props.title}</Card.Title>
-          <Card.Subtitle>❤️{this.state.favorite}</Card.Subtitle>
+          <Card.Header>
+            <Card.Title>{this.props.title}</Card.Title>
+            <Card.Subtitle>❤️{this.state.favorite}</Card.Subtitle>
+          </Card.Header>
           <Card.Text><br></br>
             <Card.Img
               className="beasts"
@@ -48,8 +50,10 @@ class HornedBeast extends React.Component {
               title={this.props.title}
             />
             <p>{this.props.description}.</p>
-            <Button onClick={this.addVote}>VOTE</Button>
           </Card.Text>
+          <Card.Footer>
+            <Button onClick={this.addVote}>VOTE</Button>
+          </Card.Footer>
         </Card.Body>
       </Card>
     );
