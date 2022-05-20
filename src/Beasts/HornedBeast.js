@@ -41,7 +41,7 @@ class HornedBeast extends React.Component {
           <Card.Title>{this.props.title}</Card.Title>
           <Card.Subtitle>❤️{this.state.favorite}</Card.Subtitle>
           <Card.Text>
-        <img
+        <Card.Img
           className="beasts"  //how is this getting width from index.css?
           src={this.props.imageUrl}
           alt={this.props.description}
