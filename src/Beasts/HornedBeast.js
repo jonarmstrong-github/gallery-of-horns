@@ -40,16 +40,16 @@ class HornedBeast extends React.Component {
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>
           <Card.Subtitle>❤️{this.state.favorite}</Card.Subtitle>
-          <Card.Text>
-        <Card.Img
-          className="beasts"  //how is this getting width from index.css?
-          src={this.props.imageUrl}
-          alt={this.props.description}
-          title={this.props.title}
-        />
-        <p>{this.props.description}.</p>
-        <Button onClick={this.addVote}>VOTE</Button>
-        </Card.Text>
+          <Card.Text><br></br>
+            <Card.Img
+              className="beasts"
+              src={this.props.imageUrl}
+              alt={this.props.description}
+              title={this.props.title}
+            />
+            <p>{this.props.description}.</p>
+            <Button onClick={this.addVote}>VOTE</Button>
+          </Card.Text>
         </Card.Body>
       </Card>
     );

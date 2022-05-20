@@ -14,15 +14,15 @@ code {
     monospace;
 }
 
-h1 {
+/* h1 {
   font-family: "Rubik Beastly";
   font-size: 5em;
   display: inline-block;
   text-align: center;
-}
+} */
 
 /* original image sizing..  currently handles in Beast.css */
-/* .beasts {
+.beasts {
   width: 480px;
   max-height: 480px;
-} */
+}
