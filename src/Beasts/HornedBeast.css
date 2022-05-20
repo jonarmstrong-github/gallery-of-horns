@@ -5,6 +5,7 @@ article {  /*article size is 480px image width + 10px of padding on each side.*/
   width: 480px;  /*beast images are set to 480px in index.css*/
   }
 
-  article img {
+  /* article img { */
+.beasts {
   width: 100%;
   }
