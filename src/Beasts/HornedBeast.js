@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card'
+
 import './HornedBeast.css';
 
 //THIS NEEDS TO BE IMPORTED INTO PARENT
@@ -21,20 +22,6 @@ class HornedBeast extends React.Component {
   };
 
   render() {
-    // return (
-    //   <article>
-    //     <h2>{this.props.title}</h2><div id='hearts'>❤️{this.state.favorite}</div>
-    //     <img
-    //       className="beasts"  //how is this getting width from index.css?
-    //       src={this.props.imageUrl}
-    //       alt={this.props.description}
-    //       title={this.props.title}
-    //     />
-    //     <p>{this.props.description}.</p>
-    //     <Button onClick={this.addVote}>VOTE</Button>
-    //     {/* <p>Voted for {this.state.favorite} times.</p> */}
-    //   </article>
-    // );
     return (
       <Card style={{width: '480px'}}>
         <Card.Body>
@@ -44,12 +31,13 @@ class HornedBeast extends React.Component {
           </Card.Header>
           <Card.Text><br></br>
             <Card.Img
+              onClick={() => this.props.addSelected(this.props.beast)}
               className="beasts"
               src={this.props.imageUrl}
               alt={this.props.description}
               title={this.props.title}
-            />
-            <p>{this.props.description}.</p>
+              />
+            {this.props.description}
           </Card.Text>
           <Card.Footer>
             <Button onClick={this.addVote}>VOTE</Button>
@@ -61,3 +49,19 @@ class HornedBeast extends React.Component {
 }
 
 export default HornedBeast;
+
+
+// return (
+//   <article>
+//     <h2>{this.props.title}</h2><div id='hearts'>❤️{this.state.favorite}</div>
+//     <img
+//       className="beasts"  //how is this getting width from index.css?
+//       src={this.props.imageUrl}
+//       alt={this.props.description}
+//       title={this.props.title}
+//     />
+//     <p>{this.props.description}.</p>
+//     <Button onClick={this.addVote}>VOTE</Button>
+//     {/* <p>Voted for {this.state.favorite} times.</p> */}
+//   </article>
+// );

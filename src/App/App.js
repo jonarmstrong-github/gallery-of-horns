@@ -2,9 +2,9 @@
 import React from 'react';
 
 //EXTRA COMPONENTS
-import Header from '../Header/Header.js';
-import Main from '../Main/Main.js';
-import Footer from '../Footer/Footer.js';
+import Header from '../Header/Header';
+import Main from '../Main/Main';
+import Footer from '../Footer/Footer';
 
 //CSS IMPORTS TOO
 import './app.css';
@@ -24,6 +24,10 @@ class App extends React.Component {  //grabbing the initial class and adding to 
   }
 }
 
+//REQUIRED FRAMEWORK 3 OF 3
+export default App;
+
+//NOTES
 //AND THEN
 // render() {
 //   return <h1>BEASTS with HORNS</h1>  //return only likes one line. otherwise wrap in ();
@@ -76,5 +80,3 @@ class App extends React.Component {  //grabbing the initial class and adding to 
 //    );
 //  }
 
-//REQUIRED FRAMEWORK 3 OF 3
-export default App;
