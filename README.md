@@ -41,6 +41,7 @@ Services from GitHub.com, Netlify.com, and Replit.com were utilized.
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
 ## Credit and Collaborations
+### Justin Hamerly
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
 ## Features
