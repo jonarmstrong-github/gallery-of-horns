@@ -1,27 +1,31 @@
 import React from 'react';
-import data from '../data.json';
+
 import './Main.css';
-import BeastModal from '../Beasts/BeastModal';
 
 //DON'T FORGET TO IMPORTED INTO PARENT
 
+//CHILD 
 import HornedBeast from '../Beasts/HornedBeast.js';
+import SelectedBeast from '../SelectedBeast/SelectedBeast';
+
 
 class Main extends React.Component {
   constructor(props) {  //creates new property on HornedBeast component
     super(props);
-    this.state = {
+    this.state = {  //initiates re-rendering when changed
       selected: {},
       isModalDisplaying: false,
     }
   }
 
+  //FUNCTIONS OF THE CONSTRUCTOR CLASS
   openModalHandler = () => {
     this.setState({
       isModalDisplaying: true,
     });
   };
 
+  //HAS TO BE AN ARROW FUNCTION...  WHY?
   closeModalHandler = () => {
     this.setState({
       isModalDisplaying: false
@@ -35,10 +39,12 @@ class Main extends React.Component {
     this.openModalHandler()
   };
 
+// RENDER FUNCTION ON THE CONSTRUCTOR CLASS
   render() {
-    let beasts = [];
-    data.forEach(beast => {
-      beasts.push(
+    let beasts = this.props.data.map((beast) => {
+      // console.log(beast);
+      return (
+        // JSX
         <HornedBeast
           key={beast._id}
           title={beast.title}
@@ -47,12 +53,13 @@ class Main extends React.Component {
           addSelected={this.addSelected}
           beast={beast}
         />)
+        // console.log(beasts);
     })
-console.log(this.state.selected);
+
     return (
       <main>
         {beasts}
-        <BeastModal 
+        <SelectedBeast 
           closeModalHandler={this.closeModalHandler}
           isModalDisplaying={this.state.isModalDisplaying}
           selected={this.state.selected}
@@ -77,3 +84,40 @@ export default Main;
 //       description='Parent rhino with two babies' />
 //   </main>
 // );
+
+//TOLD TO USE MAP INSTEAD PER LAB 03 INSTRUCTIONS
+// let beasts = beast.map(beast => {
+//         <HornedBeast
+//           key={beast._id}
+//           title={beast.title}
+//           imageUrl={beast.image_url}
+//           description={beast.description}
+//           addSelected={this.addSelected}
+//           beast={beast}
+//         />)
+
+// RENDER FUNCTION ON THE CONSTRUCTOR CLASS
+
+// import data from '../data.json';
+
+// render() {
+//   let beasts = [];
+//   data.forEach((BEAST, INDEX) => {
+//BEAST IS THE VALUE OF THE CURRENT ARRAY/OBJECT
+//INDEX WOULD NORMALLY BE CALLED TO GIVE A UNIQUE KEY TO EACH
+//         // console.log(beast);
+//   beasts.push(
+//     // JSX
+//     <HornedBeast
+//       key={beast._id}
+//       title={beast.title}
+//       imageUrl={beast.image_url}
+//       description={beast.description}
+//       addSelected={this.addSelected}
+//       beast={beast}
+//     />)
+//     // console.log(beasts);
+// })
+
+//KEY/TITLE/ETC ARE PROPS OF HORNEDBEASTS
+//{DYNAMIC THINGS LIKE VARIABLES/ARRAYS/OBJECTS}
