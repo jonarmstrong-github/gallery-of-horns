@@ -5,6 +5,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
+import data from '../data.json';
 
 //CSS IMPORTS TOO
 import './app.css';
@@ -13,11 +14,14 @@ import './app.css';
 class App extends React.Component {  //grabbing the initial class and adding to is
 
   //OR..... USE A FRAG/FRAGMENT
+  //HEADER, MAIN, AND FOOTER ARE CHILDREN
   render() {
     return (
       <>
         <Header />
-        <Main />
+        <Main
+        data={data}
+        />
         <Footer />
       </>
     );

@@ -35,6 +35,7 @@ Services from GitHub.com, Netlify.com, and Replit.com were utilized.
 2022-05-19 16:47 - ADDED REACT CARDS COMPONENT
 2022-05-19 16:52 - DEBUG
 2022-05-19 15:28 - REACT CARDS
+2022-05-20 16:14 - MODALS
 
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
@@ -94,4 +95,14 @@ Start time: 16:45
 Finish time: 17:45
 
 Actual time needed to complete: 1 hour
+
+### Name of feature: Modals
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 14:45
+
+Finish time: 17:45
+
+Actual time needed to complete: 3 hour
 

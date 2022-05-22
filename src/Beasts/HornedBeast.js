@@ -9,11 +9,13 @@ import './HornedBeast.css';
 class HornedBeast extends React.Component {
   constructor(props) {  //creates new property on HornedBeast component
     super(props);
+    // STATE IS AN OBJECT
     this.state = {
       favorite: 0,
     }
   }
-
+  
+//HAS TO BE AN ARROW FUNCTION...  WHY?
   addVote = () => {
     this.setState({
       favorite: this.state.favorite + 1,

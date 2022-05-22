@@ -1,7 +1,7 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 
-import './BeastModal.css';
+import './SelectedBeast.css';
 
 class BeastModal extends React.Component {
   render() {
