@@ -13,8 +13,8 @@ class Main extends React.Component {
   constructor(props) {  //creates new property on HornedBeast component
     super(props);
     this.state = {  //initiates re-rendering when changed
-      selected: {},
-      isModalDisplaying: false,
+      isModalDisplaying: false,  //boolean
+      selected: {},  //why an object?  was that necessary?
     }
   }
 
@@ -33,13 +33,17 @@ class Main extends React.Component {
   };
 
   addSelected = (beastData) => {
+    console.log(`Add selected before setState: ${beastData}.`);
+    //returns "[object Object]"
     this.setState({
       selected: beastData
     });
-    this.openModalHandler()
+    console.log(beastData);
+    //returns Horned Beast Object for clicked image.
+    this.openModalHandler()  //opens modal after setting state.
   };
 
-// RENDER FUNCTION ON THE CONSTRUCTOR CLASS
+  // RENDER FUNCTION ON THE CONSTRUCTOR CLASS
   render() {
     let beasts = this.props.data.map((beast) => {
       // console.log(beast);
@@ -53,17 +57,18 @@ class Main extends React.Component {
           addSelected={this.addSelected}
           beast={beast}
         />)
-        // console.log(beasts);
+      // console.log(beasts);
     })
 
+    //MODAL
     return (
       <main>
         {beasts}
-        <SelectedBeast 
+        <SelectedBeast
           closeModalHandler={this.closeModalHandler}
           isModalDisplaying={this.state.isModalDisplaying}
           selected={this.state.selected}
-          />
+        />
       </main>
     )
   }

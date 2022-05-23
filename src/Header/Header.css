@@ -1,15 +1,42 @@
 /* currently getting from index.css for some reason.... */
 header {
-  font-family: "Rubik Beastly";
-  /* display: inline-block; */
-  text-align: center;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 h1 {
+  text-align: center;
+  font-family: "Rubik Beastly";
   font-size: 5em;
   /* display: inline-block;
   text-align: center;
-  margin: auto;
   justify-content: center; */
 }
+
+h2 {
+  font-size: 2em;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+form {
+  /* text-align: center; */
+  /* margin: auto; */
+  margin-left: 40px;
+  display: inline-block;
+  /* align-self: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+#form {
+  margin: auto;
+  width: 800px;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+/* padding-left: 80px;
+padding-right: 80px; */
